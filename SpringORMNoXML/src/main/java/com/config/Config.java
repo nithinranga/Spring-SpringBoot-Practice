@@ -24,7 +24,7 @@ public class Config {
 		
 		dataSource.setUrl("jdbc:mysql://localhost:3306/practice");
 		dataSource.setUsername("root");
-		dataSource.setPassword("Fayaz78677@");
+		dataSource.setPassword("root");
 		
 		return dataSource;
 	}
