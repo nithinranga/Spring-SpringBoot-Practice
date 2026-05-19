@@ -14,13 +14,13 @@ public class UserController {
 	@RequestMapping("/hi")
 	@ResponseBody
 	public String user() {
-		return "Hi Fayaz";
+		return "Hi Nithin";
 	}
 	
 	@RequestMapping("/user")
 	public String userData(Model model) {
 		
-		model.addAttribute("name", "Fayaz");
+		model.addAttribute("name", "Nithin");
 		model.addAttribute("company", "FLM");
 		return "user";
 	}
